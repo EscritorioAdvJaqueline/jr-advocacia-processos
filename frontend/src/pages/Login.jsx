@@ -58,7 +58,7 @@ function Login() {
 
                 <form onSubmit={handleSubmit}>
 
-                    <h1>Buscador de processo</h1>
+                    <h1>Consulta Processual</h1>
 
                     <input
                         type="text"
