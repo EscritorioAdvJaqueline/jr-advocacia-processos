@@ -16,7 +16,7 @@ function Login() {
         setLoading(true);
 
         try {
-            const resposta = await fetch("https://react-google-sheets-flask.onrender.com/login_user", { // mudar para endereço certo
+            const resposta = await fetch("https://jr-advocacia-processos.onrender.com/login_user", { // mudar para endereço certo
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
